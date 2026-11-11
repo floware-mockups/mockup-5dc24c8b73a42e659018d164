@@ -1,0 +1,135 @@
+{
+  "title": "Gestione delle iscrizioni alla mensa scolastica",
+  "description": "Prototipo per consultare e registrare iscrizioni al servizio mensa, con filtri per plesso e riepilogo degli iscritti per sede. Tutti i dati sono inventati.",
+  "accent": "emerald",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Indicatori sintetici sulle iscrizioni e distribuzione degli alunni iscritti per plesso.",
+      "metrics": [
+        {
+          "label": "Iscritti totali",
+          "value": "48"
+        },
+        {
+          "label": "Plessi attivi",
+          "value": "3"
+        },
+        {
+          "label": "Diete speciali indicate",
+          "value": "7"
+        }
+      ],
+      "columns": [
+        "Plesso",
+        "Iscritti"
+      ],
+      "rows": [
+        [
+          "Plesso Lumo",
+          "18"
+        ],
+        [
+          "Plesso Vela",
+          "16"
+        ],
+        [
+          "Plesso Nubi",
+          "14"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "iscrizioni",
+      "title": "Iscrizioni",
+      "description": "Elenco filtrabile delle iscrizioni al servizio mensa. La dieta è indicata in modo generico e contiene solo le informazioni minime utili.",
+      "metrics": [
+        {
+          "label": "Iscrizioni visualizzate",
+          "value": "6"
+        }
+      ],
+      "columns": [
+        "Alunno",
+        "Plesso",
+        "Classe",
+        "Dieta speciale",
+        "Fascia tariffaria"
+      ],
+      "rows": [
+        [
+          "Nilo Rugiada",
+          "Plesso Lumo",
+          "1A",
+          "Nessuna indicazione",
+          "Ordinaria"
+        ],
+        [
+          "Mira Cobalto",
+          "Plesso Vela",
+          "2B",
+          "Senza glutine",
+          "Agevolata"
+        ],
+        [
+          "Timo Lanterna",
+          "Plesso Nubi",
+          "3A",
+          "Nessuna indicazione",
+          "Ordinaria"
+        ],
+        [
+          "Leda Gelsomino",
+          "Plesso Lumo",
+          "4B",
+          "Senza lattosio",
+          "Ridotta"
+        ],
+        [
+          "Enea Corallo",
+          "Plesso Vela",
+          "5A",
+          "Nessuna indicazione",
+          "Ordinaria"
+        ],
+        [
+          "Suri Brinata",
+          "Plesso Nubi",
+          "2A",
+          "Dieta vegetariana",
+          "Agevolata"
+        ]
+      ],
+      "form": [
+        "Alunno",
+        "Plesso",
+        "Classe",
+        "Dieta speciale",
+        "Fascia tariffaria"
+      ]
+    },
+    {
+      "id": "nuova-iscrizione",
+      "title": "Nuova iscrizione",
+      "description": "Registra un alunno al servizio mensa indicando sede, classe, eventuale dieta speciale e fascia tariffaria.",
+      "metrics": [],
+      "columns": [
+        "Alunno",
+        "Plesso",
+        "Classe",
+        "Dieta speciale",
+        "Fascia tariffaria"
+      ],
+      "rows": [],
+      "form": [
+        "Alunno",
+        "Plesso",
+        "Classe",
+        "Dieta speciale",
+        "Fascia tariffaria"
+      ]
+    }
+  ]
+}
